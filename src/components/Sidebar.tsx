@@ -344,10 +344,16 @@ export const Sidebar: React.FC = () => {
           <Upload className="mr-2 h-3 w-3" />
           Load Settings
         </Button>
-        <Button variant="outline" size="sm" className="w-full">
-          <Github className="mr-2 h-3 w-3" />
-          View on GitHub
-        </Button>
+        <a
+        href="https://github.com/mk-gg/chat-bubbles-yt" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        >
+          <Button variant="outline" size="sm" className="w-full">
+            <Github className="mr-2 h-3 w-3" />
+            View on GitHub
+          </Button>
+        </a>
       </div>
     </div>
   );
