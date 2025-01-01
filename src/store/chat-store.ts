@@ -58,8 +58,9 @@ export const useChatStore = create<ChatState>()(
   persist(
     (set, get) => ({
       messages: [
-        { id: 1, text: "Welcome to the chat app!", createdAt: Date.now() },
+        { id: 1, text: "Hello there!", createdAt: Date.now() },
         { id: 2, text: "Try customizing the colors, text size, and message disappear time in the sidebar.", createdAt: Date.now() },
+        { id: 3, text: "You can also enable keyboard sounds and change the sound pack.", createdAt: Date.now() },
       ],
       colors: defaultColors,
       textSize: 20,
