@@ -2,7 +2,7 @@
 
 Chat bubble tool for YouTube
 ============================
-A tool for recording typing animations and sounds acommpanied by chat bubble ui.
+A tool for recording typing animations and sounds accompanied by chat bubble ui.
 
 
 🚀 Tech stack: Vite, React, Zustand, Tailwind CSS, Shadcn UI Kit, Typescript
